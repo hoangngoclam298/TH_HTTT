@@ -1,12 +1,15 @@
-# Tích hợp hệ thống thông tin
+# INTERGRATED INFORMATION SYSTEM
 
-## Enviroment
+## Overview
 
-Colab google, Kaggle + ngrok
+- Enviroment: Colab google, Kaggle + ngrok
 > Our team utilizes the GPU resources on Kaggle for llama2 and the GPU on Google Colab for Falcon. Therefore, we also need to create two Ngrok accounts to generate two APIs.
+- Fine-tuing: Colab google
+> Our team fine-tuned two models, Llama2 and Falcon. Through experiments with Vietnamese-language questions, we found that fine-tuning the Llama2 model showed better effectiveness, while Falcon's results were not promising. Therefore, we decided to use the fine-tuned Llama2 model and the pre-trained Falcon model for deployment in the web chatbot
+
+**The related files have been uploaded to this GitHub repository.**
 
 ## Llama2-7b using Kaggle(GPU P100) + ngrok
-
 Install all dependencies using [pip](https://pip.pypa.io/en/stable/installation/)
 
 ```
